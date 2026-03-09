@@ -1,44 +1,44 @@
 # ⚙️ Screw & Sort: Metal ASMR
 
-![Game Preview](start_bg.png)
+![Oyun Önizleme](start_bg.png)
 
-A satisfying and relaxing Metal ASMR puzzle game. Unscrew colored bolts from metallic plates and match three of the same color in the slots to clear the board. 
+Tatmin edici ve rahatlatıcı bir Metal ASMR bulmaca oyunu. Metal plakalardaki renkli vidaları sökün ve tahtayı temizlemek için alttaki yuvalarda aynı renkten üç vidayı eşleştirin.
 
-**This version is completely ad-free!** All GameDistribution SDK integrations have been removed for a seamless experience.
+**Bu sürüm tamamen reklamsızdır!** Kesintisiz bir deneyim için tüm GameDistribution SDK entegrasyonları kaldırılmıştır.
 
-## 🎮 How to Play
-- **Unscrew:** Click on any colored screw to unscrew it.
-- **Match:** The screw will move to the available slots at the bottom.
-- **Clear:** Matching 3 screws of the same color will clear them and grant you points.
-- **Goal:** Clear all plates before the timer runs out or your health reaches zero.
+## 🎮 Nasıl Oynanır?
+- **Vida Sökme:** Herhangi bir renkli vidaya tıklayarak onu yerinden sökün.
+- **Eşleştirme:** Sökülen vida otomatik olarak alttaki boş yuvalara taşınır.
+- **Temizleme:** Aynı renkteki 3 vidayı yan yana getirdiğinizde eşleşerek yok olurlar ve puan kazandırırlar.
+- **Hedef:** Süre bitmeden veya canınız tükenmeden tüm plakaları düşürerek seviyeyi tamamlayın.
 
-## ✨ Features
-- **Pure JavaScript:** No heavy frameworks, built with HTML5 Canvas.
-- **Premium Aesthetics:** Sleek metallic design with neon accents and smooth animations.
-- **ASMR Effects:** Satisfying sound effects and visual particles.
-- **Ad-Free:** No interruptions, no "Watch Ad" popups.
-- **Responsive:** Works on both Desktop and Mobile devices.
+## ✨ Özellikler
+- **Saf JavaScript:** Ağır framework'ler yok, tamamen HTML5 Canvas ile geliştirildi.
+- **Premium Estetik:** Neon detaylar, metalik tasarımlar ve pürüzsüz animasyonlar.
+- **ASMR Efektleri:** Tatmin edici ses efektleri ve görsel parçacık sistemi.
+- **Reklamsız:** Kesinti yok, "Reklam İzle" pop-up'ları yok.
+- **Duyarlı (Responsive):** Hem masaüstü hem de mobil cihazlarda sorunsuz çalışır.
 
-## 🛠️ Project Structure
+## 🛠️ Proje Yapısı
 ```text
-├── index.html      # Main game entry point
-├── game.js        # Core game logic and physics
-├── style.css      # Modern UI and animations
-├── start_bg.png   # Premium background asset
-└── README.md      # This guide
+├── index.html      # Ana oyun giriş noktası
+├── game.js        # Çekirdek oyun mantığı ve fizik
+├── style.css      # Modern UI ve animasyonlar
+├── start_bg.png   # Premium arka plan görseli
+└── README.md      # Bu rehber
 ```
 
-## 🚀 Installation & Setup
-1. **Clone the repository:**
+## 🚀 Kurulum ve Çalıştırma
+1. **Depoyu klonlayın:**
    ```bash
    git clone https://github.com/Tparlak/screw-and-sort-metal-asmr.git
    ```
-2. **Open `index.html`** in any modern web browser.
-3. **Play!** No installation or server required.
+2. **`index.html`** dosyasını herhangi bir modern web tarayıcısında açın.
+3. **Oynayın!** Kurulum veya sunucu gerektirmez.
 
-## 🌐 Live Demo
-You can play the live version here (if GitHub Pages is enabled):
+## 🌐 Canlı Demo
+Oyunun canlı sürümünü buradan oynayabilirsiniz (GitHub Pages etkinse):
 [https://tparlak.github.io/screw-and-sort-metal-asmr/](https://tparlak.github.io/screw-and-sort-metal-asmr/)
 
 ---
-*Created with ❤️ for the ASMR gaming community.*
+*ASMR oyun topluluğu için ❤️ ile oluşturuldu.*
