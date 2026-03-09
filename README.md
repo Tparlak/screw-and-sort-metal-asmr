@@ -4,7 +4,7 @@
 
 Tatmin edici ve rahatlatıcı bir Metal ASMR bulmaca oyunu. Metal plakalardaki renkli vidaları sökün ve tahtayı temizlemek için alttaki yuvalarda aynı renkten üç vidayı eşleştirin.
 
-**Bu sürüm tamamen reklamsızdır!** Kesintisiz bir deneyim için tüm GameDistribution SDK entegrasyonları kaldırılmıştır.
+**Bu sürüm tamamen reklamsızdır!** Kesintisiz bir deneyim için tüm reklam entegrasyonları kaldırılmıştır.
 
 ## 🎮 Nasıl Oynanır?
 - **Vida Sökme:** Herhangi bir renkli vidaya tıklayarak onu yerinden sökün.
