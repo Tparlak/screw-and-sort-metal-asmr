@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Screw & Sort: Metal ASMR - Unscrew colored screws and match them!">
+    <title>Screw & Sort: Metal ASMR</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- UI Controls Overlay -->
+        <div id="game-controls">
+            <button id="btn-pause-toggle" class="control-btn" aria-label="Pause Game">
+                ⏸️
+            </button>
+            <button id="btn-mute-toggle" class="control-btn" aria-label="Mute Audio">
+                🔊
+            </button>
+        </div>
+
+        <!-- Start Screen -->
+        <div id="start-screen">
+            <!-- Content Container -->
+            <div class="start-content">
+                <!-- Header -->
+                <div class="start-header">
+                    <h1 class="game-title">SCREW & SORT</h1>
+                    <p class="game-subtitle">METAL ASMR</p>
+                </div>
+
+                <!-- Main Action -->
+                <div class="start-main">
+                    <button id="play-btn" class="play-button-center">
+                        PLAY
+                    </button>
+                </div>
+
+                <!-- Footer / How to Play -->
+                <div class="start-footer">
+                    <div class="htp-container">
+                        <div class="htp-item">
+                            <span class="htp-icon">🔧</span> UNSCREW
+                        </div>
+                        <div class="htp-item">
+                            <span class="htp-icon">🎨</span> MATCH
+                        </div>
+                        <div class="htp-item">
+                            <span class="htp-icon">⬇️</span> DROP
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional HUD -->
+        <div id="ui-overlay">
+
+            <!-- Unified Header Row -->
+            <div id="header-row">
+                <!-- Left: Level -->
+                <div id="level-hud">
+                    <div class="neon-sign">
+                        <span class="level-label">LEVEL</span>
+                        <span id="level-number">1</span>
+                    </div>
+                </div>
+
+                <!-- Center: Timer -->
+                <div id="timer-panel">
+                    <div class="panel-label">TIMER</div>
+                    <div id="timer-display">60</div>
+                    <div id="timer-container-header">
+                        <div id="timer-bar"></div>
+                    </div>
+                </div>
+
+                <!-- Right: Status -->
+                <div id="status-panel">
+                    <div class="panel-header">STATUS</div>
+                    <div class="status-row">
+                        <div id="health-container">
+                            <span class="heart" id="heart-1">❤</span>
+                            <span class="heart" id="heart-2">❤</span>
+                            <span class="heart" id="heart-3">❤</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Combo Text -->
+            <div id="combo-text" class="hidden">EXCELLENT!</div>
+
+            <!-- Level Complete Popup -->
+            <div id="level-complete" class="popup hidden">
+                <div class="popup-content">
+                    <h2 class="popup-title">LEVEL COMPLETE!</h2>
+                    <div class="stars">★ ★ ★</div>
+                    <button id="next-level-btn" class="action-button">NEXT LEVEL</button>
+                </div>
+            </div>
+
+            <!-- Game Over Popup -->
+            <div id="game-over" class="popup hidden">
+                <div class="popup-content">
+                    <h2 class="popup-title game-over-title">GAME OVER</h2>
+                    <p class="final-level">Level Reached: <span id="final-level">1</span></p>
+                    <button id="extra-slots-btn-go" class="reward-button">🎁 REVIVE & 2 SLOTS</button>
+                    <button id="restart-btn" class="action-button">RESTART</button>
+                </div>
+            </div>
+
+            <!-- Reward Popup -->
+            <div id="reward-popup" class="popup hidden">
+                <div class="popup-content">
+                    <h2 class="popup-title" id="reward-title">EXTRA LIFE</h2>
+                    <p class="reward-desc" id="reward-desc">Watch a short video to continue?</p>
+                    <button id="watch-ad-btn" class="reward-button">📺 WATCH ADS</button>
+                    <button id="close-reward-btn" class="action-button secondary-action">NO THANKS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Logic -->
+    <script src="game.js"></script>
+</body>
+
+</html>
